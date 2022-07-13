@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-300: #16F2A1;
+  --green-500: #15BF81;
+  --green-700: #1C403C;
+
+  --blue-500: #038C7F;
+  --blue-700: #027373;
+
+  --red-500: #F75A68;
+  --yellow-500: #FBA94C;
+
+  --gradient: linear-gradient(278.36deg, #1C403C 1.06%, #038C7F 56.36%, #15BF81 108.49%, #16F2A1 152.73%);
+  --gradient-hover: linear-gradient(82.45deg, #1C403C 2.99%, #038C7F 61.66%, #15BF81 116.97%, #16F2A1 163.91%);
+  
+  --gray-100: #E1E1E6;
+  --gray-500: #323238;
+  --gray-700: #121214;
+  --gray-900: #09090A;
+
+  --white: #ffffff;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--gray-900);
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 700;
+  color: var(--gray-100);
+}
+
+p, span, a, button, input, label, textarea {
+  font-weight: 400;
+  color: var(--gray-100);
+}
