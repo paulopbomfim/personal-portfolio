@@ -31,19 +31,45 @@ html {
 }
 
 body {
-  background-color: var(--gray-900);
-  background-image: url('./assets/background.jpg');
-  background-size: cover;
+  background-image: url('../assets/background.jpg');
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-color: var(--gray-900);
 }
 
-h1, h2, h3, h4, h5, h6, strong {
-  font-weight: 700;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
   color: var(--gray-100);
 }
 
 p, span, a, button, input, label, textarea {
   font-weight: 400;
   color: var(--gray-100);
+}
+
+@media (max-width: 339px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (min-width: 340px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 81.25%;
+  }
+}
+@media (min-width: 900px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 93.75%;
+  }
 }
